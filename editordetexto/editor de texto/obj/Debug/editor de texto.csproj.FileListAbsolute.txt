@@ -1,0 +1,10 @@
+C:\Users\Alumno\source\repos\editor de texto\editor de texto\bin\Debug\editor de texto.exe.config
+C:\Users\Alumno\source\repos\editor de texto\editor de texto\bin\Debug\editor de texto.exe
+C:\Users\Alumno\source\repos\editor de texto\editor de texto\bin\Debug\editor de texto.pdb
+C:\Users\Alumno\source\repos\editor de texto\editor de texto\obj\Debug\editor de texto.csprojAssemblyReference.cache
+C:\Users\Alumno\source\repos\editor de texto\editor de texto\obj\Debug\editor_de_texto.Form1.resources
+C:\Users\Alumno\source\repos\editor de texto\editor de texto\obj\Debug\editor_de_texto.Properties.Resources.resources
+C:\Users\Alumno\source\repos\editor de texto\editor de texto\obj\Debug\editor de texto.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\editor de texto\editor de texto\obj\Debug\editor de texto.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\editor de texto\editor de texto\obj\Debug\editor de texto.exe
+C:\Users\Alumno\source\repos\editor de texto\editor de texto\obj\Debug\editor de texto.pdb

@@ -1,0 +1,125 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace editor_de_texto
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+
+        {
+            InitializeComponent();
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void imprimirToolStripButton_Click(object sender, EventArgs e)
+        {
+            printDialog1 = new PrintDialog();
+            printDialog1.ShowDialog();
+        }
+
+        private void copiarToolStripButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void abrirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dialogo = new OpenFileDialog();
+            dialogo.Title = "Abrir archivo";
+            dialogo.InitialDirectory = @"C:\Users\Alumno\Desktop\EDITOR";
+            dialogo.Filter = "*TXT files (*.txt)|*.txt|*RTF files|*.rtf|All files (*.*)|*.*";
+            dialogo.ShowDialog();
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.LoadFile(openFileDialog1.FileName, RichTextBoxStreamType.PlainText);
+            }
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guardarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //DialogResult r = MessageBox.Show(this, "Esta seguro que quiere guardar?", "Atencion", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+            saveFileDialog1 = new SaveFileDialog();
+            saveFileDialog1.Filter = "*txt files (*.txt)|*RTF files|*.rtf|*.txt|All files (*.*)|*.*";
+            saveFileDialog1.Title = "Guardar archivo";
+            saveFileDialog1.InitialDirectory = @"C:\Users\Alumno\Desktop\EDITOR";
+            saveFileDialog1.ShowDialog();
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.SaveFile(saveFileDialog1.FileName, RichTextBoxStreamType.PlainText);
+            }
+            /*if (r == DialogResult.Yes)
+            {
+                MessageBox.Show("Guardado con exito");
+            }
+            */
+        }
+
+        private void fuentesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fontDialog1 = new FontDialog();
+            fontDialog1.ShowColor = true;
+
+            /*fontDialog1.Font = RichTextBoxStreamType.Font;
+            fontDialog1.Color = RichTextBoxStreamType.ForeColor;
+            */fontDialog1.ShowDialog();
+
+            /*if (fontDialog1.ShowDialog() != DialogResult.Cancel)
+            {
+                RichTextBoxStreamType.Font = fontDialog1.Font;
+                RichTextBoxStreamType.ForeColor = fontDialog1.Color;
+            }*/
+        }
+
+        private void toolStripButton5_Click(object sender, EventArgs e)
+        {
+            colorDialog1 = new ColorDialog();
+            colorDialog1.ShowDialog();
+            /*if (colorDialog1.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.ColorDialog(colorDialog1.Color, RichTextBoxStreamType.RichText);
+            }*/
+        }
+
+        private void toolStripButton3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cargarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+    }

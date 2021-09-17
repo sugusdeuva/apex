@@ -1,0 +1,13 @@
+C:\Users\Alumno\source\repos\ServicioClima\ServicioClima\bin\Debug\ServicioClima.exe.config
+C:\Users\Alumno\source\repos\ServicioClima\ServicioClima\bin\Debug\ServicioClima.exe
+C:\Users\Alumno\source\repos\ServicioClima\ServicioClima\bin\Debug\ServicioClima.pdb
+C:\Users\Alumno\source\repos\ServicioClima\ServicioClima\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alumno\source\repos\ServicioClima\ServicioClima\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alumno\source\repos\ServicioClima\ServicioClima\obj\Debug\ServicioClima.csprojAssemblyReference.cache
+C:\Users\Alumno\source\repos\ServicioClima\ServicioClima\obj\Debug\ServicioClima.Form1.resources
+C:\Users\Alumno\source\repos\ServicioClima\ServicioClima\obj\Debug\ServicioClima.Properties.Resources.resources
+C:\Users\Alumno\source\repos\ServicioClima\ServicioClima\obj\Debug\ServicioClima.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\ServicioClima\ServicioClima\obj\Debug\ServicioClima.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\ServicioClima\ServicioClima\obj\Debug\ServicioClima.csproj.CopyComplete
+C:\Users\Alumno\source\repos\ServicioClima\ServicioClima\obj\Debug\ServicioClima.exe
+C:\Users\Alumno\source\repos\ServicioClima\ServicioClima\obj\Debug\ServicioClima.pdb

@@ -65,7 +65,8 @@ namespace ServicioClima
 
             json = JObject.Parse(sLinePrev);
 
-            pictureBox1.Image = Image.FromFile("iconos/" + json["daily"]["data"][0]["icon"].ToString() + ".png");
+            pictureBox1.Image = Image.FromFile("iconos/" + json["currently"]["icon"].ToString() + ".png");
+            pictureBox9.Image = Image.FromFile("iconos/" + json["daily"]["data"][0]["icon"].ToString() + ".png");
             pictureBox2.Image = Image.FromFile("iconos/" + json["daily"]["data"][1]["icon"].ToString() + ".png");
             pictureBox3.Image = Image.FromFile("iconos/" + json["daily"]["data"][2]["icon"].ToString() + ".png");
             pictureBox4.Image = Image.FromFile("iconos/" + json["daily"]["data"][3]["icon"].ToString() + ".png");
@@ -74,10 +75,34 @@ namespace ServicioClima
             pictureBox7.Image = Image.FromFile("iconos/" + json["daily"]["data"][6]["icon"].ToString() + ".png");
             pictureBox8.Image = Image.FromFile("iconos/" + json["daily"]["data"][7]["icon"].ToString() + ".png");
             
+
             DateTime d = UnixTimeStampToDateTime(Convert.ToDouble(json["currently"]["time"]));
             string s = d.ToLongDateString();
 
+            DateTime f = UnixTimeStampToDateTime(Convert.ToDouble(json["daily"]["data"][1]["time"]));
+            label12.Text = f.DayOfWeek.ToString();
+
+            DateTime g = UnixTimeStampToDateTime(Convert.ToDouble(json["daily"]["data"][2]["time"]));
+            label13.Text = g.DayOfWeek.ToString();
+
+            DateTime h = UnixTimeStampToDateTime(Convert.ToDouble(json["daily"]["data"][3]["time"]));
+            label14.Text = h.DayOfWeek.ToString();
+
+            DateTime x = UnixTimeStampToDateTime(Convert.ToDouble(json["daily"]["data"][4]["time"]));
+            label15.Text = x.DayOfWeek.ToString();
+
+            DateTime j = UnixTimeStampToDateTime(Convert.ToDouble(json["daily"]["data"][5]["time"]));
+            label16.Text = j.DayOfWeek.ToString();
+
+            DateTime k = UnixTimeStampToDateTime(Convert.ToDouble(json["daily"]["data"][6]["time"]));
+            label17.Text = k.DayOfWeek.ToString();
+
+            DateTime l = UnixTimeStampToDateTime(Convert.ToDouble(json["daily"]["data"][7]["time"]));
+            label18.Text = l.DayOfWeek.ToString();
+
             label33.Text = "" + json["currently"]["summary"].ToString();
+
+            label1.Text = "Buenos aires, CABA";
 
             label8.Text = "C° " + json["currently"]["temperature"].ToString();
 
@@ -97,6 +122,12 @@ namespace ServicioClima
             label30.Text = "C° " + json["daily"]["data"][6]["temperatureLow"].ToString();
             label31.Text = "C° " + json["daily"]["data"][7]["temperatureHigh"].ToString();
             label32.Text = "C° " + json["daily"]["data"][7]["temperatureLow"].ToString();
+
+            label35.Text = "" + json["daily"]["summary"].ToString();
+
+            label36.Text = json["currently"]["uvIndex"].ToString() + " UV";
+            label37.Text = json["currently"]["humidity"].ToString() + "%";
+
             Console.ReadLine();
         }
 

@@ -37,3 +37,16 @@ C:\Users\Seba\Desktop\Migithub\apex\ServicioClima\ServicioClima\obj\Debug\Servic
 C:\Users\Seba\Desktop\Migithub\apex\ServicioClima\ServicioClima\obj\Debug\ServicioClima.csproj.CopyComplete
 C:\Users\Seba\Desktop\Migithub\apex\ServicioClima\ServicioClima\obj\Debug\ServicioClima.exe
 C:\Users\Seba\Desktop\Migithub\apex\ServicioClima\ServicioClima\obj\Debug\ServicioClima.pdb
+C:\Users\Alumno\Desktop\pilasmauri\apex\ServicioClima\ServicioClima\bin\Debug\ServicioClima.exe.config
+C:\Users\Alumno\Desktop\pilasmauri\apex\ServicioClima\ServicioClima\bin\Debug\ServicioClima.exe
+C:\Users\Alumno\Desktop\pilasmauri\apex\ServicioClima\ServicioClima\bin\Debug\ServicioClima.pdb
+C:\Users\Alumno\Desktop\pilasmauri\apex\ServicioClima\ServicioClima\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alumno\Desktop\pilasmauri\apex\ServicioClima\ServicioClima\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alumno\Desktop\pilasmauri\apex\ServicioClima\ServicioClima\obj\Debug\ServicioClima.csprojAssemblyReference.cache
+C:\Users\Alumno\Desktop\pilasmauri\apex\ServicioClima\ServicioClima\obj\Debug\ServicioClima.Form1.resources
+C:\Users\Alumno\Desktop\pilasmauri\apex\ServicioClima\ServicioClima\obj\Debug\ServicioClima.Properties.Resources.resources
+C:\Users\Alumno\Desktop\pilasmauri\apex\ServicioClima\ServicioClima\obj\Debug\ServicioClima.csproj.GenerateResource.cache
+C:\Users\Alumno\Desktop\pilasmauri\apex\ServicioClima\ServicioClima\obj\Debug\ServicioClima.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\pilasmauri\apex\ServicioClima\ServicioClima\obj\Debug\ServicioClima.csproj.CopyComplete
+C:\Users\Alumno\Desktop\pilasmauri\apex\ServicioClima\ServicioClima\obj\Debug\ServicioClima.exe
+C:\Users\Alumno\Desktop\pilasmauri\apex\ServicioClima\ServicioClima\obj\Debug\ServicioClima.pdb

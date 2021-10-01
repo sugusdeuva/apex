@@ -1,0 +1,16 @@
+commit sirve para subir archivo al repositorio local
+
+push sube el repo local al servidor
+
+
+hola estoy documentando
+
+
+
+si
+
+git checkout -b nombrerama para crear
+
+git branch para ver en cual estoy
+
+git checkout -d nombrerama para eliminar
